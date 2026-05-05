@@ -47,10 +47,12 @@ FIFA_Final_PROJECT/
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Run Configuration
+# 2. Run preprocessing Notebook
+
+# 3. Run Configuration
 python config.py
 
-# 3. Run all charts (optional, can run individually)
+# 4. Run all charts (optional, can run individually)
 python charts/chart_01_column_bar.py
 python charts/chart_02_stacked_clustered.py
 python charts/chart_03_scatter.py
@@ -61,10 +63,10 @@ python charts/chart_07_violin.py
 python charts/chart_08_line.py
 python charts/chart_09_area.py
 
-# 4. Run dashboard
+# 5. Run dashboard
 python app.py
 
-# 5. Open browser
+# 6. Open browser
 # → http://0.0.0.0:8050/     # replace 0.0.0.0 → localhost → https://localhost:8050/
 ```
 
